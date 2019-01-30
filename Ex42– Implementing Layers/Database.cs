@@ -67,7 +67,6 @@ namespace Ex42__Implementing_Layers
                     Console.WriteLine("Hovsa " + e.Message);
                 }
             }
-
         }
     }
 }
