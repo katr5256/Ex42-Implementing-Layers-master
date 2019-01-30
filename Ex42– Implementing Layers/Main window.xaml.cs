@@ -55,25 +55,19 @@ namespace Ex42__Implementing_Layers
             PetDOB1.IsEnabled = true;
             PetWeight1.IsEnabled = true;
             OwnerId1.IsEnabled = true;
-
-            
         }
 
         private void SavePet_Click(object sender, RoutedEventArgs e)
         {
-            'string PetName = PetName1.Text;
+            Controller controller = new Controller();
+            string PetName = PetName1.Text;
             string PetType = PetType1.Text;
             string PetBreed = PetBreed1.Text;
             string PetDOB = PetDOB1.Text;
             string PetWeight = PetWeight1.Text;
             int OwnerId = Convert.ToInt32(OwnerId1.Text);
 
-            InsertPet(PetName, PetType, PetBreed, PetDOB, PetWeight, OwnerId)
-            {
-
-            }
-            '
-
+            controller.InsertPet(PetName, PetType, PetBreed, PetDOB, PetWeight, OwnerId);
         }
     }
 }

@@ -56,7 +56,6 @@
     <Compile Include="Main window.xaml.cs">
       <DependentUpon>Main window.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs" />
     <Compile Include="Pet.cs" />
     <Compile Include="Pet_Owner.cs" />
     <Compile Include="Program.cs" />
